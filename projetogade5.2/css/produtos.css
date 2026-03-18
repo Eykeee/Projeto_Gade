@@ -1,0 +1,141 @@
+.scor {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ffffff;
+  }
+  
+  
+  h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    width: 95%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  
+  .content {
+    margin: 0px 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    box-shadow: 0 14px 28px rgb(185, 185, 185), 0 10px 10px rgb(0, 0, 0, 0.22);
+    transition: 0.4s;
+    background-color: #fff;
+    flex-basis: 20%;
+  }
+  .content h3 {
+    font-size: 1em;
+    font-weight: 300;
+  }
+  
+  .content:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+  }
+  
+  img {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: blocks;
+  }
+  
+  p {
+    text-align: center;
+    color: #b2bec3;
+    padding: 8px 0px;
+  }
+  
+  h6 {
+    font-size: 26px;
+    text-align: center;
+    color: #000;
+    margin: 0;
+  }
+  
+  .Buy-1 {
+    background-color: #ff0000;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 30%;
+    display: flex;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    width: 40%;
+    justify-content: center;
+    
+  }
+
+  
+  /*Topo*/
+.main_header {
+    width: 100%;
+    background-color: #000000;
+  
+    /* position: fixed;
+            z-index: 1; */
+  }
+  
+  .main_header .main_header_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .main_header .main_header_content .logo img {
+    flex-basis: 330px;
+    padding: 20px;
+    width: 150px;
+  }
+  
+  .main_header .main_header_content .main_header_content_menu {
+    flex-basis: calc(100% - 330px);
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .main_header_content_menu ul {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .main_header_content_menu ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .main_header_content_menu ul li a {
+    padding: 0 26px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  .main_header_content_menu ul li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+  }
+  

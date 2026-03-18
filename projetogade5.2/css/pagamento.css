@@ -1,0 +1,99 @@
+body {
+	background-color: #313131;
+}
+
+.container {
+	border: 1px solid #000;
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+	.container {
+		flex-direction: column;
+	}
+	.pagamento p {
+		font-size: 1rem;
+	}
+}
+
+h1 {
+	margin-top: 10%;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 2em;
+	font-weight: 200px;
+	color: #fff;
+}
+
+.img {
+	/* max-width: 50%;
+	margin-top: 10%;
+	margin-left: 25%;
+	margin-bottom: 5%;
+	justify-content: center; */
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.font {
+	font-family: sans-serif;
+	text-align: center;
+	margin-top: 15%;
+}
+.pagamento {
+	width: 100%;
+}
+
+.pagamento p {
+	color: #000;
+	text-align: center;
+}
+
+form {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: space-around;
+}
+
+.b {
+	text-decoration: none;
+	margin-bottom: 10px;
+	text-align: center;
+	/* margin-left: 11%; */
+	display: inline-block;
+	font-size: 1.2em;
+	color: #fff;
+	background-color: #000;
+	border-radius: 4px;
+	padding: 10px;
+	font-family: sans-serif;
+	justify-content: center;
+}
+
+.btn {
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #000;
+	color: #fff;
+	font-family: sans-serif;
+	border: none;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: red;
+}
+.b:hover {
+	background-color: red;
+}
